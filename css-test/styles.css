@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-size: 16px; 
+    text-transform: uppercase; 
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    background-color: #B7CBD5;
+    height: 60px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.hero__section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  padding: 2% 5%;
+}
+
+.heroOne , .heroTwo {
+width: 50%;
+height: 100vh;
+background-color: #B7CBD5;
+margin: 5px;
+padding: 5%;
+}
+
+
+.sectionTwo {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+   padding: 15px 30px 30px;
+}
+
+.sectionTwo > section  {
+    width: 50%;
+height: 100vh;
+}
+
+.sectionTwo__first {
+text-align: center;
+justify-content: center;
+display: flex;
+flex-direction: column;
+}
+
+h1 {
+    font-size: 3.5rem;
+    color: #B7CBD5;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.sectionTwo__second {
+   display: flex;
+   flex-wrap: wrap-reverse;
+   
+}
+
+.sectionTwo__second > section {
+  width: 45%;
+  height: 48%;
+  display: flex;
+background-color: #B7CBD5;
+  flex-direction: row;
+  margin: 5px;
+}
+
+.sectionThree {
+    width: 100%;
+    height: 100vh;
+}
+
+.sectionThree {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+    margin-bottom: 10%;
+}
+.sectionThree > section {
+    width: 33.33%;
+    height: 100vh;
+   margin: 5px;
+   background-color: #B7CBD5;
+   color: #495e68;
+}
+
+.sectionThree__one  {
+    text-align: center;
+}
+
+.sectionThree__two {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionThree__three {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+}
+
+.sectionThree__four {
+    text-align: center;
+   justify-content: end;
+    display: flex;
+    align-items: flex-end;
+}
+
+.sectionFour {
+    height: fit-content;
+display: flex;
+flex-direction: column;
+margin: 5%;
+background-color: #B7CBD5;
+padding: 3%;
+margin-bottom: 2%;
+}
+
+.sectionFour__one {
+    height: 5%;
+    width: 100%;
+background-color: #B7CBD5;
+color: #5b7785;
+}
+
+
+.sectionFour__two {
+    display: flex;
+    flex-direction: row;
+padding: 5%;
+}
+
+.sectionFour__two > section {
+    width: 33.33%;
+    height: 250px;
+    background-color: #5b7785;
+    margin: 5px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .hero__section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .heroOne, .heroTwo {
+        width: 100%;
+    }
+
+    .sectionTwo {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+       padding: 15px 30px 30px;
+    }
+    
+    .sectionTwo > section  {
+        width: 100%;
+    height: 100vh;
+        }
+
+       
+        .sectionThree {
+            width: 100%;
+            height: fit-content;
+            display: flex;
+            flex-direction: column;
+            padding: 5%;
+            margin-bottom: 10%;
+        }
+        .sectionThree > section {
+            width: 100%;
+            height: 900px;
+           margin: 5px;
+           background-color: #B7CBD5;
+           color: #495e68;
+        }
+  
+    
+        .sectionFour {
+            height: fit-content;
+        display: flex;
+        flex-direction: column;
+        margin: 5%;
+        background-color: #B7CBD5;
+        padding: 3%;
+        margin-bottom: 2%;
+        }
+        
+        .sectionFour__one {
+            height: 10%;
+            width: 100%;
+            text-align: center;
+        }
+        
+        
+        .sectionFour__two {
+            display: flex;
+            flex-direction: column;
+          padding: 5%;
+        }
+        
+        .sectionFour__two > section {
+            width: 100%;
+            height: 900px;
+            background-color: #5b7785;
+            margin: 5px;
+        }
+        
+}
+
+@media only screen and (max-width: 768px) and (min-width: 600px)  {
+    .hero__section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .heroOne, .heroTwo {
+        width: 100%;
+    }
+}
